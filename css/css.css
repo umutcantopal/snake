@@ -1,0 +1,132 @@
+#container{
+	height:200px;
+	width:440px;
+	background-color:black;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	font-size:0;
+	box-shadow:1px 1px 10px black;
+}
+
+.kutu{
+	height:20px;
+	width:20px;
+	background-color:#393d3a;
+	display:inline-block;
+	/* 10 satır, 22 sutun */
+}
+
+.yilan-parca{
+	background-color:#d6e446;
+	z-index:3;
+}
+
+.yiyecek{
+	background-color:#4caf57;
+	z-index:2;
+}
+
+.bonus-yiyecek{
+	background-color:#af4c63;
+}
+
+#sayac{
+	width: 374px;
+	height: 20px;
+	background-color: #af4c63;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+#puan-gosterge{
+	width: 66px;
+	height: 20px;
+	display: inline-block;
+	font-size: 15px;
+	vertical-align: top;
+	font-family: arial;
+	text-align: center;
+}
+
+#mesaj-kutusu, #baslangic-ekrani{
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	font-size:0;
+	text-align:center;
+	width:auto;
+	min-width:300px;
+}
+
+#mesaj-kutusu>span, #baslangic-ekrani>span{
+	font-size:40px;
+	color:white;
+	font-weight:bold;
+	text-align:center;
+	font-family:Helvetica,Arial;
+	display:inline-block;
+	color:#a89677;
+	text-shadow: 1px 1px 10px #000;
+}
+
+#baslangic-ekrani>span{
+	font-size:20px;
+	color:white;
+}
+
+#baslangic-ekrani>button{
+	background-color: #fdae49;
+	border: none;
+	color: white;
+	padding: 5px 17px 5px 17px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #000;
+	margin-left: 5px;
+	outline:none;
+}
+
+#baslangic-ekrani>button:hover{
+	cursor:pointer;
+	background-color: #f09f39;
+}
+
+.secilizorluk{
+	outline: #e9880d solid 2px !important;
+}
+
+#oyun-baslat-buton{
+	display: block;
+	margin: auto !important;
+	margin-bottom: auto;
+	margin-bottom: 10px !important;
+	padding-top: 20px !important;
+	width: 100%;
+	padding-bottom: 20px !important;
+}
+
+@keyframes oyun-sonu{
+	0%   {background-color: #d6e446;}
+	50%  {background-color: #e44646;}
+	100% {background-color: #d6e446;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
