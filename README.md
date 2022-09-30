@@ -1,3 +1,3 @@
 # snake
 
-www.snake.umutcantopal.xyz
+http://snake.umutcantopal.xyz
